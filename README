@@ -1,0 +1,13 @@
+Instrucciones de microservicio gestion de servicios
+
+tenemos un controller: usuario controlador
+
+
+| Método     | Ruta            | Descripción                                                                   |
+| ---------- | --------------- | ----------------------------------------------------------------------------- |
+| **GET**    | `/usuario`      | Obtiene todos los usuarios.                                                   |
+| **GET**    | `/usuario/{id}` | Obtiene un usuario específico por `id`.                                       |
+| **POST**   | `/usuario`      | Crea un nuevo usuario (no implementado en el código actual, pero posible).    |
+| **DELETE** | `/usuario/{id}` | Elimina un usuario específico por `id` (también no implementado actualmente). |
+
+Ejemplo localhost:8090/usuario/12
